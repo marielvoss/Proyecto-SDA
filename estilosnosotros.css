@@ -1,0 +1,172 @@
+body {
+    background-image: url(pino.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.logo{
+    width: 80px;
+}
+.container-nav{
+    display:flex;
+    justify-content: right;
+    width: 100%; 
+    font-family:'Bad Script', cursive;
+    font-weight: 800; 
+}
+.nav-link{
+    margin-left: 50px;
+}
+.titulo{
+    display: block;    
+    background-color: rgba(0, 0, 0, 0.697);
+    font-family:'Bad Script', cursive;
+    text-align: center;    
+    border-top: 5px;
+    font-size: 50px;
+    color:rgb(237, 207, 168)
+    
+}
+.principal{
+    margin-top: 20px;
+    border: 10px outset gray;
+    padding: 20px;
+    text-align: center;
+    font-size: larger;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family:'Bad Script', cursive;
+    font-weight: 800;
+}
+.principal H2{
+    text-decoration-line:underline
+}
+.container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    justify-content: space-around;
+    align-items:center
+    
+     
+}
+.caja{
+   
+    text-align:left;
+    border-radius: 5%;
+    background-color: antiquewhite;
+    width: 300px;
+    height: fit-content;
+    padding: 2%;
+    margin: 1rem      
+    
+    
+}
+.caja h3{
+    text-align: center;
+    text-decoration:underline;
+    font-family:'Bad Script', cursive;
+    font-weight: 800;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px;
+    font-family:'Bad Script', cursive;
+    font-weight: 800;
+
+}
+.foto5{
+    margin-top: 30px;
+    border: solid 15px black;
+    
+}
+.destacado{
+    background-color: antiquewhite;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 600px;
+    border-radius: 5%;
+    padding: 2%;
+    margin-top: 30px;
+    font-family:'Bad Script', cursive;
+    font-weight: 800;
+ 
+   }
+.destacado ul{
+    text-align: left;
+}
+.foto4{
+    margin-top: 30px;
+    border: solid 15px black;
+}
+.container1{
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: rgba(0, 0, 0, 0.697);
+    color: aliceblue;
+    font-size:large;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height: 300px;
+    font-family:'Bad Script', cursive;
+    flex-wrap: wrap-reverse;
+}
+
+.seguinos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Redes {
+    font-size: 25px;  
+       
+    
+}
+.direccion{
+    padding-top: 2%;
+    text-align: center;
+}
+.enlace {
+    display: flex;
+    text-decoration: none;
+    color: aliceblue;
+    background-color:black;         
+    border-radius: 5px;
+    padding-inline: 58px;
+    justify-content: center;
+    margin: 5px;
+    width: 70%;  
+        
+}
+.galeria{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.mapa{
+    font-size: 45px;
+    color:blueviolet;
+    text-align: center; 
+}
+
+.container3{
+    
+    text-align: center;    
+    flex-wrap: wrap;
+    color: rgba(24, 11, 11, 0.848);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+}

@@ -1,0 +1,130 @@
+body {
+    background-image: url(pino.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.cabecera{
+    display: flex;
+    justify-content: center;
+}
+.general{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto{
+    
+    font-family:'Bad Script', cursive;
+    font-weight: 800;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+
+}
+.container-nav{
+    display:flex;
+    justify-content: right;
+    width: 100%; 
+    font-family:'Bad Script', cursive;
+ 
+}
+.logo{
+    width: 80px;
+}
+.nav-link{
+    margin-left: 50px;
+}
+.titulo{
+    display: block;    
+    background-color: rgba(0, 0, 0, 0.697);
+    font-family:'Bad Script', cursive;
+    text-align: center;    
+    border-top: 5px;
+    font-size: 50px;
+    color:rgb(237, 207, 168)
+    
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 10px outset black; 
+    margin-top: 2%;
+    
+    margin-bottom: 2%;
+     
+   
+}
+.imput{
+    width: 600px;
+}
+.boton{
+    background-color: rgb(62, 62, 169);
+    color: aliceblue;
+    align-items: center;
+    border-radius: 2%;
+    
+}
+.container1{
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: rgba(0, 0, 0, 0.697);
+    color: aliceblue;
+    font-size: large;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height: 300px;
+    font-family:'Bad Script', cursive;
+    flex-wrap: wrap-reverse;
+
+}
+.seguinos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Redes {
+    font-size: 25px;  
+       
+    
+}
+.direccion{
+    padding-top: 2%;
+    text-align: center;
+}
+.enlace {
+    display: flex;
+    text-decoration: none;
+    color: aliceblue;
+    background-color:black;         
+    border-radius: 5px;
+    padding-inline: 58px;
+    justify-content: center;
+    margin: 5px;
+    width: 70%;  
+        
+}
+.galeria{
+    display: flex;
+    flex-direction: column;
+}
+.mapa{
+    font-size: 30px;
+    color:blueviolet;
+    text-align: center; 
+}
+
+.container2{
+    text-align: center;    
+    
+    color: rgba(24, 11, 11, 0.848);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
